@@ -1,5 +1,8 @@
 ---
+title: Compute Blade
 layout: page
+permalink: "/"
+nav_order: 0
 ---
 
 # Compute Blade
