@@ -8,7 +8,7 @@ nav_order: 3
 
 # Ethernet with PoE
 
-The Compute Blade features a 1Gbps Ethernet port that supports IEEE 802.3at (PoE+) and 802.3af (PoE).
+The Compute Blade features a Gigabit Ethernet port that supports IEEE 802.3at (PoE+) and 802.3af (PoE).
 
 ## Power Consumption
 
