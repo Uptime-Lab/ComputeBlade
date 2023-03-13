@@ -13,7 +13,7 @@ nav_order: 1
 * Raspberry Pi CM4 support
 * NVMe SSD up to 22110 (2230, 2242, 2260, 2280 supported)
 * Gigabit Ethernet
-* Power over Ethernet IEEE 802.3at (PoE+) up to 30W (normal operation 2-8W)
+* Power over Ethernet IEEE 802.3at (PoE+) up to 25.5W (30W peak)
 * Raspberry Pi CM4 by PoE 5.1V power supply, which has improved stability under overclocking.
 * USB-A for a flash drive for copying data during setup with UART or YubiKey keys during operation.
 * MicroSD card port
