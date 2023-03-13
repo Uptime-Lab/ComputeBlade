@@ -18,6 +18,19 @@ A compute blade with a CM4 overlocked to 2GHz and a normal NVMe SSD consumes ~7W
 
 A cluster of 40 blades running CI/CD tasks in a production environment consumes 260-280W, with 20 blades @ 1.8GHz and 20 blades overclocked to 2GHz.
 
+## Cost
+
+The cost to run a blade will depend on the power consumption considerations noted above and your local utility provider's rates. Some providers will vary the cost of electricity over the course of a day (peak vs. non-peak), which can further complicate the equation.
+
+You can use an [energy cost calculator](https://www.rapidtables.com/calc/electric/energy-cost-calculator.html) to figure out kWh per day, month, or year, then mulitply that by your local utility provider's rates to determine the total cost to run a blade.
+
+Examples: 
+
+If a blade consumes 10W and runs 24 hours a day, that's 0.24 kWh/d. A fully-populated 19" rack mount shelf with 20 blades would consume 4.8 kWh/d.
+
+* USD: At $0.20 per kWh, a blade would cost $0.048/d, or $0.96/d for a full shelf.
+* EUR: At €0.19 per kWh, a blade would cost €0.046/d, or €0.82/d for a full shelf.
+
 ## PoE Modules
 
 Different Compute Blade revisions use different PoE modules. See the table below.
@@ -53,14 +66,16 @@ A switch that supports IEEE 802.3at (PoE+) is recommended. However, IEEE 802.3af
 ### Considerations
 
 * PoE standard(s) supported.
-* PoE budget.
+* PoE budget.<sup>1</sup>
 * Port count.
 * Port speed.
 * Form factor.
 
+<sup>1</sup> _Note the switch's PSU, switch power consumption, and power available to PoE. Switches are not always capable of providing full power to all available switch ports. For example, a switch with a 500W PSU, with 50W switch power consumption, has a 450W PoE budget. That allows 26.25W per port for a 24-port switch, but only 9.375W for a 48-port switch._ 
+
 ### Switches In Use
 
-A list of switches that Compute Blade users have successfully used to connect and power Compute Blades. This is not an exhaustive resource, it is only meant to provide a helpful reference for users looking to buy a switch.
+A list of switches that Compute Blade users have successfully used to connect and power Compute Blades. For reference only.
 
 | Switch                                                                     | Part No.       | Ports                          | PoE                |
 |:---------------------------------------------------------------------------|:---------------|:-------------------------------|:-------------------|
