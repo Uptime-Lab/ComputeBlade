@@ -4,6 +4,16 @@ layout: page
 permalink: "/about/"
 nav_order: 1
 ---
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 ## Compute Blade
 
 ![infographic](/assets/images/infographic.jpg)
@@ -41,3 +51,11 @@ nav_order: 1
 
 ![Dimensions-1](/assets/images/about-1.jpg)
 ![Dimensions-2](/assets/images/about-2.jpg)
+
+### 3D model of Compute Blade
+
+[Compute Blade RC2 (.step file link)](/assets/files/Compute_Blade_RC2.step){:target="_blank"}
+
+### Compute Blade Changelog
+
+[From concept to RC2 on uplab.pro](https://uplab.pro/2022/03/compute-blade-changelog/){:target="_blank"}
