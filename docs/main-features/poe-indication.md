@@ -9,7 +9,7 @@ nav_order: 4
 # PoE+ Indicator
 
 
-The PoE+ Indicator can be used to monitor power supply failures or automate RaspberryPi overclocking, when power is provided via 802.3af only.
+The PoE+ Indicator can be used to monitor power supply failures or limit RaspberryPi overclocking, when power is provided via 802.3af only.
 There is an LED on the Blade with a `+` label indicating the PoE+ power state.
 Alongside, GPIO23 can be used to identify the power state.
 

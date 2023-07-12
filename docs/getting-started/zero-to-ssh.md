@@ -6,7 +6,7 @@ permalink: "/getting-started/zero-to-ssh/"
 nav_order: 1
 ---
 
-This getting started guide is intended to provide a generic starting ground, covering all steps required to get an SSH session to your blade - with.
+This getting started guide is intended to provide a generic starting ground, covering all steps required to get an SSH session to your blade.
 While you can use the Blade with an SD-Card or the embedded eMMC as boot drive, this guide focuses on using the NVMe drive.
 
 # 0. Checklist
