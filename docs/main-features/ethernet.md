@@ -77,6 +77,9 @@ A list of switches that Compute Blade users have successfully used to connect an
 
 | Switch                                                                     | Part No.             | Ports                               | PoE                |
 |:---------------------------------------------------------------------------|:---------------------|:------------------------------------|:-------------------|
+| [Aruba CX6100 12G](https://www.arubanetworks.com/de/products/switches/access/6100-series/){:target="_blank"} | JL679A       | 14x 1GbE RJ45, 2x 1/10GbE SFP+      | 12x PoE+ |
 | [Ubiquiti Switch Pro 24 PoE](https://store.ui.com/products/usw-pro-24-poe){:target="_blank"} | USW-PRO-24-POE       | 24x 1GbE RJ45, 2x 1/10GbE SFP+      | 16x PoE+, 8x PoE++ |
 | [HP 5120-48G-POE+](https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c00778577){:target="_blank"}           | JG237A               | 48x 1GbE RJ45, 4x SFP, 2x Expansion | 48x PoE+           |
+| [Juniper EX3300-24P](https://www.juniper.net/documentation/en_US/release-independent/junos/information-products/pathway-pages/ex-series/ex3300/ex3300.pdf){:target="_blank"} | EX3300-24P       | 24x 1GbE RJ45, 4x 1/10GbE SFP+      | 24x PoE+ |
+| [Juniper EX3300-48P](https://www.juniper.net/documentation/en_US/release-independent/junos/information-products/pathway-pages/ex-series/ex3300/ex3300.pdf){:target="_blank"} | EX3300-48P       | 48x 1GbE RJ45, 4x 1/10GbE SFP+      | 48x PoE+ |
 | [Zyxel GS1200-5HP v2](https://www.zyxel.com/us/en-us/products/switch/5-port-8-port-web-managed-poe-gigabit-switch-gs1200-poe-series){:target="_blank"} | GS1200-5HPV2-EU0101F | 5x 1GbE RJ45                        | 4x PoE+            |

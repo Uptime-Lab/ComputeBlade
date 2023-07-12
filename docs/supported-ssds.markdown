@@ -11,14 +11,18 @@ Below is a list of NVMe SSDs that have been tested by Uptime Lab and community m
 
 | Product                       | Model              | Capactiy     | Tester                                      |
 |:------------------------------|:-------------------|:-------------|:--------------------------------------------|
+| Crucial P2                    | CT500P2SSD8        | 500GB        | [xvzf](https://github.com/xvzf)             |
 | Crucial P3                    | CT500P3SSD8        | 500GB        | [pxpunx](https://github.com/pxpunx)         |
 | Crucial P3                    | CT4000P3SSD8       | 4TB          | [Uptime Lab](https://github.com/Uptime-Lab) |
 | Intel 670p                    | SSDPEKNU512GZ      | 512GB        | [pxpunx](https://github.com/pxpunx)         |
 | Intel Optane H10              | HBRPEKNX0101A      | 16GB + 256GB | [pxpunx](https://github.com/pxpunx)         |
 | Intel Optane M10 <sup>1</sup> | MEMPEK1J032GAD     | 32GB         | [pxpunx](https://github.com/pxpunx)         |
 | Kingston NV2                  | SNV2S/250G         | 250GB        | [pxpunx](https://github.com/pxpunx)         |
+| Kingston NV2                  | SNV2S/1000G        | 1TB          | [xvzf](https://github.com/xvzf)             |
 | Kingston SNS8154P3            | RBUSNS8154P3256GJ1 | 256GB        | [pxpunx](https://github.com/pxpunx)         |
+| KIOXIA-EXCERIA SSD            | LRC10Z500GG8       | 500GB        | [xvzf](https://github.com/xvzf)             |
 | KIOXIA BG4                    | KBG40ZNS128G       | 128GB        | [pxpunx](https://github.com/pxpunx)         |
+| KIOXIA BG5 <sup>2</sup>       | KBG50ZNV512G       | 512GB        | [xvzf](https://github.com/xvzf)             |
 | Micron 2450                   | MTFDKBA256TFK      | 256GB        | [pxpunx](https://github.com/pxpunx)         |
 | Micron 3400                   | MTFDKBA512TFH      | 512GB        | [pxpunx](https://github.com/pxpunx)         |
 | Patriot P310                  | P310P240GM28       | 240GB        | [pxpunx](https://github.com/pxpunx)         |
@@ -45,6 +49,7 @@ Below is a list of NVMe SSDs that have been tested by Uptime Lab and community m
 | WD SN520                      | SDAPNUW-256G-1006  | 256GB        | [pxpunx](https://github.com/pxpunx)         |
 
 <sup>1</sup> _This SSD will not function as a boot disk._
+<sup>2</sup> _Might cause slightly increased CM4 temperature, but stability & performance is not impacted (reported by [xvzf](https://github.com/xvzf)) ._
 
 # Benchmarks
 
