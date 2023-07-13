@@ -10,7 +10,5 @@
 
 - [Discord community](https://discord.com/servers/uptime-lab-952334175501946902)
 
-  
-
 ![Compute Blade](/docs/assets/images/infographic.jpg?raw=true "Compute Blade")
 

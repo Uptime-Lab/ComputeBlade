@@ -7,7 +7,7 @@ nav_order: 0
 
 # Compute Blade
 
-The device is a rack-mountable, PoE-powered carrier board for Raspberry Pi Compute Module 4 and compatible devices with all the necessary interfaces. 
+The device is a rack-mountable, PoE-powered carrier board for Raspberry Pi Compute Module 4 and compatible devices with all the necessary interfaces.
 With Compute Blade, you can create a high-density, low-power-consuming, plug-and-play blade server for home or data-center use.
 
 ![infographic](/assets/images/infographic.jpg)

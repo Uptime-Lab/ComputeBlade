@@ -25,7 +25,7 @@ try:
          button_state = GPIO.input(20)
          if button_state == False:
              print('Button Pressed...')
-             time.sleep(0.2)       
+             time.sleep(0.2)
 except:
     GPIO.cleanup()
 ```
