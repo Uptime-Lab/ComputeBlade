@@ -58,3 +58,12 @@ sleep 0.1
 exit 0
 ```
 
+To switch off LEDs on the Ethernet port add these lines to /boot/config.txt ([Source](https://github.com/raspberrypi/linux/blob/rpi-5.15.y/arch/arm/boot/dts/overlays/README#L172){:target="_blank"})
+
+```bash
+#disable ethernet port LEDs
+dtparam=eth_led0=14
+dtparam=eth_led1=14
+```
+
+
