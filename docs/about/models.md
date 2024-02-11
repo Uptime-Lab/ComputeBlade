@@ -4,6 +4,8 @@ layout: page
 parent: About
 permalink: "/about/models/"
 nav_order: 2
+redirect_from:
+- /models/
 ---
 
 
