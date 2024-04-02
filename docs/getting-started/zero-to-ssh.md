@@ -26,7 +26,7 @@ Make sure to line up the CM4 in the correct orientation. It fits only one way! A
 
 
 2. Install the heatsink on the CM4.
-Make sure there is sufficient heihgt clearance, when not using the heatsink offered by the ComputeBlade project
+Make sure there is sufficient height clearance, when not using the heatsink offered by the ComputeBlade project
 
 3. Plug everything into your PoE switch
 This is just a sanity check to see if everything was installed properly!
