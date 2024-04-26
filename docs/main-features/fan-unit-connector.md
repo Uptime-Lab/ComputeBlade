@@ -23,12 +23,24 @@ Add to Config.txt
 dtoverlay=uart5
 ```
 
-Console:
+> Note:
+>
+> to find out which port UART5 is on:
+> ```bash
+> /dev/tty*
+> ```
+> it would look something like this:
+> ```bash
+> /dev/ttyAMA1 or /dev/ttyAMA5
+> ```
+
+Console (use your UART port):
+
 
 ```bash
 sudo apt-get install cu
-sudo chmod 666 /dev/ttyAMA1
-sudo cu -l /dev/ttyAMA1 -s 115200
+sudo chmod 666 /dev/ttyAMA5
+sudo cu -l /dev/ttyAMA5 -s 115200
 ```
 
 Fan Unit code:
