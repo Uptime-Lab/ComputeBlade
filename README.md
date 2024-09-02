@@ -1,3 +1,5 @@
+# This page is no longer being updated and the new repo is [uptime-industries/compute-blade](https://github.com/uptime-industries/compute-blade)
+
 # Compute Blade Repository
 
 - [Official website computeblade.com](https://computeblade.com/)
